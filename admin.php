@@ -37,8 +37,8 @@ if (isset($_SESSION['tcno'])){
                     <td><?php echo $userlist['ad'] ?></td>
                     <td><?php echo $userlist['soyad']?></td>
                     <td><?php echo $userlist['dogum'] ?></td>
-                    <td><form action="delete.php" method="POST">
-                    <button type="submit" name="delete-submit">Delete User</button></form></td>
+                    <!--<td><form action="delete.php" method="POST">
+                    <button type="submit" name="delete-submit">Delete User</button></form></td>-->
                   </tr>
                   <?php } ?>
 
@@ -48,8 +48,11 @@ if (isset($_SESSION['tcno'])){
         
 <?php
 
-    echo '<form align=center action="add.php" method="">
+    echo '<br><form align=center action="add.php" method="">
             <button type="submit" name="add-submit">Add User</button></form>';
+    
+    echo '<form align=center action="delete.php" method="">
+            <button type="submit" name="delete-submit">Delete User</button></form>';
 
 
     echo '<form align=center action="logout.php" method="post">
