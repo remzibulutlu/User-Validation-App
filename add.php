@@ -18,7 +18,7 @@
         <button type="submit" name="gonder">Kullanıcı Ekle</button><br>
 </form>
 <form align=center action="admin.php" method="">
-        <button type="submit" name="goadmin">Admin Sayfasına Geri Dön</button></form>
+        <button type="submit" >Admin Sayfasına Geri Dön</button></form>
 </form>
 </div>
 

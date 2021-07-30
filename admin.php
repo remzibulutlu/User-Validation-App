@@ -49,14 +49,17 @@ if (isset($_SESSION['tcno'])){
 <?php
 
     echo '<br><form align=center action="add.php" method="">
-            <button type="submit" name="add-submit">Add User</button></form>';
+            <button type="submit" >Add User</button></form>';
     
     echo '<form align=center action="delete.php" method="">
-            <button type="submit" name="delete-submit">Delete User</button></form>';
+            <button type="submit" >Delete User</button></form><br>';
+    
+    echo '<br><form align=center action="index.php" method="">
+            <button type="submit" >Go to Index Page</button></form>';
 
 
     echo '<form align=center action="logout.php" method="post">
-            <button type="submit" name="logout-submit">Logout</button></form>';
+            <button type="submit" >Logout</button></form>';
 
 }
 
